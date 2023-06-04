@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {  Card, CardImg, CardBody, CardTitle, 
-          CardText, Button, Col, Input
+          Button, Col, Input
         } from 'reactstrap';
 
 export const GifItem = ({id, url, title}) => {
